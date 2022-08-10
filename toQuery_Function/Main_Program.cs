@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Text;
+using ExtensionMethods;
+
 namespace useExtensionMethod
 {
-    public static class ExtMethodClass
-    {
-        public static int ToCurrency(this string str)
-        {
-            return Int32.Parse(str);
-        }
-    }
+    //public static class ExtMethodClass
+    //{
+    //    public static int ToCurrency(this string str)
+    //    {
+    //        return Int32.Parse(str);
+    //    }
+    //}
 
     class Program
     {
